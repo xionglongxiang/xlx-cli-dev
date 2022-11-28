@@ -1,0 +1,22 @@
+{
+  "name": "@xlx-cli-dev/core",
+  "version": "1.0.0",
+  "description": "xlx-cli-dev core",
+  "author": "xionglongxiang <xionglongxiang@126.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/core.test.js"
+  },
+  "dependencies": {
+    "@xlx-cli-dev/utils": "^1.0.0"
+  }
+}
